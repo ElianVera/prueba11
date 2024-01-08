@@ -19,14 +19,19 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private ImageView imageView;
     private TextView categoria;
     private String[][] urls = {
-            { "https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/laroma_cacao.png", "https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lgalaxie.png", "url_imagen_1_3"},
-            {"url_imagen_2_1", "url_imagen_2_2"},
-            // Agrega más arreglos con las URLs para cada categoría aquí
+            { "https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/laroma_cacao.png", "https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lgalaxie.png", "https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lbravo.png", "https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/ldelrio.png", "https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lcosta.jpg","https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lcrespotel.jpg"},
+            {"https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lcafe_tinto.png", "https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lfancy_mint.png","https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lsweet.png", "https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/ltoro_cafe.png"},
+            {"https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lronda_quevedena.jpeg","https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lsanjose_iglesia.jpg","https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lparque_madre.jpg","https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lmuseo_municipal.jpg"},
+            {"https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lboho.png","https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lcoco_fresh.png","https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lcontainer.png","https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lparadise.jpeg"},
+            {"https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lquadra.png","https://uealecpeterson.net/turismo/assets/imgs/logos_gifs/lpaseo_shopping.jpeg","",""}
+
     };
     private String[][] titulos = {
-            {"Aroma de Cacao", "Rancho Galaxi"},
-            {"Título 2-1", "Título 2-2"},
-            // Agrega más arreglos con los títulos para cada categoría aquí
+            {"Aroma de Cacao", "Rancho Galaxi","Hotel Bravo","Hotel del Río","Costa del Sol","Crespotel"},
+            {"café & Tinto", "Fancy Mint Coffe & Cake Shop", "Sweet Land", "Toro Café"},
+            {"Ronda Quevedeña","Iglesia San José", "Parque de la Madre", "Museo Municipal"},
+            {"Boho Garden Plaza","Coco Fresh","El Container","Paradise"},
+            {"LAQUADRA","Paseo Shopping Quevedo", "Shopping Center", "Victoria Ventura"}
     };
     private String[] datos = {"Alojamiento y Hoteles", "Alimentación y Bebidas", "Atractivos Culturales", "Esparcimientos", "Compras"};
 
