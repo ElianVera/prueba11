@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             {"Título 2-1", "Título 2-2"},
             // Agrega más arreglos con los títulos para cada categoría aquí
     };
-    private String[] datos = {"Alojamiento", "Alimentación y Bebidas", "Atractivos Culturales", "Esparcimientos", "Compras"};
+    private String[] datos = {"Alojamiento y Hoteles", "Alimentación y Bebidas", "Atractivos Culturales", "Esparcimientos", "Compras"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
